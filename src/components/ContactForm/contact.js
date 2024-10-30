@@ -8,14 +8,14 @@ const Contact = () => {
       <div>
         <h2>Contact us</h2>
         <p>RecordKeep Oy</p>
-        <div className="email-div">
+{/*         <div className="email-div">
           <p>Email :</p>
           <a className="link" href="mailto:gopalkandel@gmail.com">
             <p>gopalkandel@gmail.com</p>
           </a>
-        </div>
+        </div> */}
 
-        <p>Address : Linintontie 10 R 163, 00940 Helsinki</p>
+        <p>Office address : Vilhonvuorenkatu 12, 00500 Helsinki</p>
       </div>
     </div>
   );
