@@ -2,6 +2,7 @@ import HamburgerMenu from "../HamburgerMenu/hamBurgerMenu";
 import "./index.css";
 import React from "react";
 import { Link } from "react-scroll";
+import { ReactComponent as SvgImage } from "./icon.svg"; // Adjust the path to your SVG
 
 const Navbar = () => {
   const hideResponsiveNav = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
   return (
     <nav>
       <a href="/">
-        <h1>Recordkeep</h1>
+        <SvgImage className="nav_icon" />
       </a>
 
       <div className="nav-links">
