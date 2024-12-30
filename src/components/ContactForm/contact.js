@@ -8,12 +8,12 @@ const Contact = () => {
       <div>
         <h2>Contact us</h2>
         <p>RecordKeep Oy</p>
-        {/*         <div className="email-div">
+        <div className="email-div">
           <p>Email :</p>
-          <a className="link" href="mailto:gopalkandel@gmail.com">
-            <p>gopalkandel@gmail.com</p>
+          <a className="link" href="mailto:gopal@recordkeep.fi">
+            <p>gopal@recordkeep.fi</p>
           </a>
-        </div> */}
+        </div>
 
         <p>Contact : +358503797561</p>
         <p>Address : Vilhonvuorenkatu 12, 00500 Helsinki</p>
