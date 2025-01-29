@@ -1,10 +1,13 @@
 .article-container {
   width: 80%;
   height: 100%;
-  margin: 0 auto;
+  margin: auto;
   margin-top: 100px;
   padding: 20px;
-  font-family: Arial, sans-serif;
+
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 .article-header {
@@ -13,9 +16,9 @@
 }
 
 .article-header h1 {
-    font-size: 2rem;
-    color: #333;
-  }
+  font-size: 2rem;
+  color: #333;
+}
 
 .article-body {
   line-height: 1.6;
@@ -23,8 +26,9 @@
 }
 
 .article-content {
-  font-size: 1rem;
-  color: #444;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 .article-content h2,
@@ -36,12 +40,22 @@
 
 .article-content ul {
   list-style: disc;
-  padding-left: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-top: 20px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 .article-content ul li {
   margin-bottom: 10px;
   font-size: 18px;
   color: rgba(230, 229, 229, 0.6);
+}
+
+@media only screen and (max-width: 900px) {
+  .article-container {
+    width: 85%;
+  }
 }

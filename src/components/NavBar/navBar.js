@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <nav>
       <a className="nav-link" href="/">
-        <IconSVG />
+        <IconSVG style={{ padding: "8px", zIndex: 101 }} />
       </a>
 
       <div className="nav-links">
