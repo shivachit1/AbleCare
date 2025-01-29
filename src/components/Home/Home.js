@@ -1,6 +1,5 @@
 import React from "react";
 import MyServices from "../Services/Services.js";
-import { Link } from "react-router-dom";
 import { ReactComponent as SvgImage } from "./svgImage.svg";
 import "./index.css";
 

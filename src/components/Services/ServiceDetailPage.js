@@ -7,7 +7,7 @@ import { servicesData } from "./Services";
 
 export const ServiceDetailPage = () => {
   const { id } = useParams();
-  const service = servicesData.find((service) => service.id == id);
+  const service = servicesData.find((service) => service.id === id);
   return (
     <div className="article-container">
       <section className="article-body">

@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./index.css"; // Optional CSS for styling
-import { CiLocationOn, CiMail } from "react-icons/ci";
-import { IoCallOutline } from "react-icons/io5";
 
 const Footer = () => {
   // Set the address you want to open
