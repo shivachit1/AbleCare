@@ -1,8 +1,8 @@
 import HamburgerMenu from "../HamburgerMenu/hamBurgerMenu";
 import "./index.css";
 import React from "react";
-import { Link } from "react-scroll";
-import { ReactComponent as SvgImage } from "./icon.svg"; // Adjust the path to your SVG
+import { Link } from "react-router-dom";
+import { ReactComponent as IconSVG } from "./icon.svg";
 
 const Navbar = () => {
   const hideResponsiveNav = () => {
@@ -12,10 +12,17 @@ const Navbar = () => {
     menu.classList.toggle("change");
   };
 
+  const scrollToElement = () => {
+    const element = document.getElementById("footer");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <nav>
-      <a href="/">
-        <SvgImage className="nav_icon" />
+      <a className="nav-link" href="/">
+        <IconSVG />
       </a>
 
       <div className="nav-links">
@@ -23,12 +30,24 @@ const Navbar = () => {
           <li className="nav-link">
             <Link
               className="nav-link"
-              to="services"
-              activeClass="active"
-              smooth={true}
+              to="/about"
+              smooth="true"
               offset={-100}
               duration={500}
-              ignoreCancelEvents={true}
+              ignorecancelevents="true"
+              onClick={() => hideResponsiveNav()}
+            >
+              About
+            </Link>
+          </li>
+          <li className="nav-link">
+            <Link
+              className="nav-link"
+              to="services"
+              smooth="true"
+              offset={-100}
+              duration={500}
+              ignorecancelevents="true"
               onClick={() => hideResponsiveNav()}
             >
               Services
@@ -36,18 +55,9 @@ const Navbar = () => {
           </li>
 
           <li className="nav-link">
-            <Link
-              className="nav-link"
-              activeClass="active"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-              onClick={() => hideResponsiveNav()}
-            >
+            <button className="button" onClick={scrollToElement}>
               Contact
-            </Link>
+            </button>
           </li>
         </ul>
       </div>

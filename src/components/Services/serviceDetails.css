@@ -1,0 +1,47 @@
+.article-container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.article-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.article-header h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+
+.article-body {
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.article-content {
+  font-size: 1rem;
+  color: #444;
+}
+
+.article-content h2,
+.article-content h3,
+.article-content h4 {
+  color: white;
+  margin-top: 30px;
+}
+
+.article-content ul {
+  list-style: disc;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.article-content ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: rgba(230, 229, 229, 0.6);
+}
