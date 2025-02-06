@@ -6,19 +6,21 @@ import AboutUs from "./components/AboutUs/AboutUs.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./components/Home/Home.js";
 import { ServiceDetailPage } from "./components/Services/ServiceDetailPage.js";
-import ContactPage from "./components/Contact/Contact.js";
+import AboutNDIS from "./components/AboutNDIS/AboutNDIS.js";
+import ScrollToTop from "./ScrollToTop.js";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/services" element={<MyServices />} />
           <Route path="/services/:id" element={<ServiceDetailPage />} />
           <Route path="/about" element={<AboutUs />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/about-ndis" element={<AboutNDIS />} />
         </Routes>
         <Footer />
       </Router>

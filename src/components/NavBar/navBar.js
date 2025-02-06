@@ -2,7 +2,7 @@ import HamburgerMenu from "../HamburgerMenu/hamBurgerMenu";
 import "./index.css";
 import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as IconSVG } from "./icon.svg";
+import { ReactComponent as IconSVG } from "../../icon.svg";
 
 const Navbar = () => {
   const hideResponsiveNav = () => {
@@ -37,7 +37,20 @@ const Navbar = () => {
               ignorecancelevents="true"
               onClick={() => hideResponsiveNav()}
             >
-              About
+              About Us
+            </Link>
+          </li>
+          <li className="nav-link">
+            <Link
+              className="nav-link"
+              to="/about-ndis"
+              smooth="true"
+              offset={-100}
+              duration={500}
+              ignorecancelevents="true"
+              onClick={() => hideResponsiveNav()}
+            >
+              NDIS
             </Link>
           </li>
           <li className="nav-link">
@@ -56,7 +69,7 @@ const Navbar = () => {
 
           <li className="nav-link">
             <button className="button" onClick={scrollToElement}>
-              Contact
+              Contact Us
             </button>
           </li>
         </ul>

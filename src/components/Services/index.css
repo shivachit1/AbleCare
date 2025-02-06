@@ -31,7 +31,7 @@
 
 .service-card {
   position: relative;
-  background-color: rgba(13, 18, 28, 0.98);
+  background-color: var(--primary-color1);
   border-radius: 8px;
   padding: 30px;
   padding-top: 10px;
@@ -48,7 +48,7 @@
 .service-card .link {
   cursor: pointer;
   text-decoration: underline;
-  color: rgb(127, 211, 142);
+  color: var(--secondary-color);
 }
 
 .service-card:hover {
@@ -61,7 +61,6 @@
 }
 
 .service-card p {
-  font-size: 1.2rem;
   margin-bottom: 10px;
   text-align: left;
 }

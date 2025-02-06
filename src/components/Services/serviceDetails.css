@@ -15,11 +15,6 @@
   margin-bottom: 20px;
 }
 
-.article-header h1 {
-  font-size: 2rem;
-  color: #333;
-}
-
 .article-body {
   line-height: 1.6;
   font-size: 18px;
@@ -31,10 +26,14 @@
   white-space: normal;
 }
 
-.article-content h2,
+.article-content h2 {
+  color: var(--secondary-color);
+  margin-top: 30px;
+}
+
 .article-content h3,
 .article-content h4 {
-  color: white;
+  color: var(--primary-text-color);
   margin-top: 30px;
 }
 
@@ -50,8 +49,7 @@
 
 .article-content ul li {
   margin-bottom: 10px;
-  font-size: 18px;
-  color: rgba(230, 229, 229, 0.6);
+  color: var(--secondary-text-color);
 }
 
 @media only screen and (max-width: 900px) {

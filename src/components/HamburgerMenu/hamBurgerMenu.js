@@ -1,6 +1,7 @@
 import "./index.css";
 import React from "react";
 const HamburgerMenu = () => {
+
   const showLinks = () => {
     const menu = document.querySelector(".menu");
     const links = document.querySelector(".nav-links");
