@@ -47,8 +47,8 @@ const Footer = () => {
             <IoMail className="react-icon" />
 
             <p style={{ marginLeft: "10px" }}>
-              <a className="link" href="mailto:mail@domain.au">
-                mail@domain.au
+              <a className="link" href="mailto:admin@ablecarendis.com.au">
+                admin@ablecarendis.com.au
               </a>
             </p>
           </div>
