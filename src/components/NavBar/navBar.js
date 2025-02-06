@@ -13,6 +13,7 @@ const Navbar = () => {
   };
 
   const scrollToElement = () => {
+    hideResponsiveNav();
     const element = document.getElementById("footer");
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
