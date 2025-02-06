@@ -89,7 +89,10 @@ const AboutNDIS = () => {
               To be eligible for the NDIS, you must meet the following criteria:
             </p>
 
-            <article style={{ marginTop: "10px" }}>
+            <article
+              className="about_ndis_container"
+              style={{ marginTop: "0px" }}
+            >
               <ul>
                 <li>
                   <strong>Age:</strong> Between 9 and 65 (Children under 9 may

@@ -78,7 +78,7 @@ const Footer = () => {
           </div>
         </section>
         <section className="footer_content_item">
-          <h2>APPLYING FOR NDIS FUNDING</h2>
+          <h3>Applying for NDIS funding</h3>
           <div className="contact_item" id="footer">
             <p>
               <a
