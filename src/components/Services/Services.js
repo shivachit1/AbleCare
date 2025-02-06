@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export const servicesData = [
   {
-    id: 1,
+    id: "ahort_term_accommodation_and_assistance",
     icon: <FaHandHoldingHeart className="icon" />,
     title: "Short Term Accommodation and Assistance",
     description:
@@ -49,7 +49,7 @@ If you or your loved one are in need of short-term accommodation and personalize
 `,
   },
   {
-    id: 2,
+    id: "daily_living_assistance",
     icon: <MdAccessibility className="icon" />,
     title: "Daily Living Assistance",
     description:
@@ -87,7 +87,7 @@ If you or your loved one needs daily living assistance, **Able Care** is here to
 `,
   },
   {
-    id: 3,
+    id: "supported_independent_living",
     icon: <FaHome className="icon" />,
     title: "Supported Independent Living (SIL)",
     description:
@@ -130,7 +130,7 @@ If you or a loved one are looking for **long-term accommodation** and **personal
 `,
   },
   {
-    id: 4,
+    id: "social_and_community_participation",
     icon: <IoIosPeople className="icon" />,
     title: "Social and Community Participation",
     description:
@@ -171,7 +171,7 @@ Reach out to us today to learn more about how we can help you get involved in yo
 `,
   },
   {
-    id: 5,
+    id: "personal_care_and_life_skill_development",
     icon: <FaHandsHelping className="icon" />,
     title: "Personal Care and Life Skill development",
     description:
@@ -211,7 +211,7 @@ If you’re ready to take control of your daily tasks and develop valuable life 
 `,
   },
   {
-    id: 6,
+    id: "assistance_with_travel_and_support",
     icon: <FaCar className="icon" />,
     title: "Assistance with Travel and Support",
     description:
